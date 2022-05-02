@@ -8,6 +8,8 @@ public class CustomerLedgerApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(CustomerLedgerApplication.class, args);
-    }
 
+        System.out.println("Demo Project by ParthInfo");
+
+    }
 }
