@@ -10,11 +10,6 @@ import org.springframework.context.ConfigurableApplicationContext;
 public class CustomerLedgerApplication {
 
     public static void main(String[] args) {
-        ConfigurableApplicationContext context = SpringApplication.run(CustomerLedgerApplication.class, args);
-
-        CellPhone phone = context.getBean(CellPhone.class);
-
-        System.out.println(phone.show());
-
+        SpringApplication.run(CustomerLedgerApplication.class, args);
     }
 }
